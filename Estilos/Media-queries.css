@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px){
+  .logo h1 {
+    font-size: 2em
+  }
+
+  .products {
+    width: auto;
+    display: inherit;
+  }
+
+  .product-1 {
+    width: auto;
+  }
+
+  .product-2 {
+    width: auto;
+    margin: 10% 10%;
+   }
+
+   .title-benefits{
+     font-size: 1em;
+     padding: 7%;
+   }
+
+   .benefit{
+     width: 48%;
+     margin: 2% 1%;
+   }
+
+   .title-reviews {
+     font-size: 1em;
+     padding: 8%;
+   }
+
+   .review {
+     width: 48%;
+     margin: 1%;
+   }
+
+   .coment {
+     font-size: 1.5em;
+   }
+}
+
+@media screen and (max-width: 320px) {
+  .benefit {
+    width: auto;
+  }
+
+  .title-reviews {
+    font-size: .8em;
+  }
+
+  .review {
+    width: 100%;
+  }
+}
